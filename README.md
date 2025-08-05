@@ -40,9 +40,3 @@ This repo showcases basic yet essential frontend development skills including:
   - Emojis for visual fun
   - CSS Transitions
   - Flexbox and Grid for layout
-
----
-
-## 📸 Screenshots
-
-
