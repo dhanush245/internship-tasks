@@ -1,0 +1,111 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0px;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  min-height:100vh;
+  color: #333;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+section {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 25px 30px;
+  margin: 20px auto;
+  border-radius: 12px;
+  max-width: 900px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+section h2 {
+  color: #d84315;
+  border-bottom: 2px solid #ffccbc;
+  padding-bottom: 6px;
+}
+
+img {
+  margin: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: #fff;
+}
+
+th {
+  background-color: #ffccbc;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  justify-items: center;
+}
+
+.gallery img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 600px;
+}
+
+form label {
+  font-weight: 500;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="email"],
+form input[type="password"],
+form input[type="date"],
+form input[type="time"],
+form input[type="color"],
+form input[type="range"],
+form input[type="file"] {
+  padding: 10px;
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  padding: 12px 20px;
+  background-color: #ff7043;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+form input[type="submit"]:hover {
+  background-color: #f4511e;
+}
