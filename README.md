@@ -45,14 +45,4 @@ This repo showcases basic yet essential frontend development skills including:
 
 ## 📸 Screenshots
 
-> You can add screenshots here in future (e.g., form preview, gallery preview, etc.)
 
----
-
-## 🚀 How to View
-
-You can view the live version here:  
-👉 [https://your-username.github.io/frontend-internship/](https://your-username.github.io/frontend-internship/)  
-> _(Replace "your-username" and repo name accordingly)_
-
-Or you can download the repo and open `index.html` in any browser
